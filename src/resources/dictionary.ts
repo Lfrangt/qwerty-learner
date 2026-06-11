@@ -1574,6 +1574,17 @@ const internationalExam: DictionaryResource[] = [
     languageCategory: 'en',
   },
   {
+    id: 'Duolingo_Reading_Core_100_115',
+    name: '多邻国阅读核心词汇 100-115',
+    description: '多邻国阅读核心词汇，适用于 100-115 分',
+    category: '国际考试',
+    tags: ['CEFR', 'Duolingo', 'DET'],
+    url: '/dicts/Duolingo_Reading_Core_100_115.json',
+    length: 1675,
+    language: 'en',
+    languageCategory: 'en',
+  },
+  {
     id: 'Oxford3000',
     name: '牛津3000词',
     description: '牛津3000词',
