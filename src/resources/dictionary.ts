@@ -694,6 +694,17 @@ const internationalExam: DictionaryResource[] = [
     languageCategory: 'en',
   },
   {
+    id: 'BIOL_1111_Course_Terms',
+    name: 'BIOL 1111 课前词汇',
+    description: '从本地 BIOL 1111 课程笔记自动导入的术语词库',
+    category: '专业词汇',
+    tags: ['生物', 'BIOL 1111'],
+    url: '/dicts/BIOL_1111_Course_Terms.json',
+    length: 235,
+    language: 'en',
+    languageCategory: 'en',
+  },
+  {
     id: 'IELTS_tinglichangjing',
     name: '雅思听力场景词汇',
     description: '雅思听力场景词汇',

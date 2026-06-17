@@ -1,0 +1,2336 @@
+[
+  {
+    "name": "carboxyl group",
+    "trans": [
+      "羧基",
+      "An acidic -COOH group that can release hydrogen ions.",
+      "羧基：COOH。 氨基酸、脂肪酸都有。",
+      "Ch03 碳、官能团、脱水/水解和四类大分子。 常见陷阱：氨基酸、脂肪酸都有。"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "law",
+    "trans": [
+      "定律",
+      "描述自然现象的数学化规律（与 theory 性质不同）"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "cilia",
+    "trans": [
+      "纤毛",
+      "Many short cell appendages used for movement or moving fluid across a surface.",
+      "纤毛：多而短。 呼吸道扫黏液（mucus）。",
+      "许多短附属结构（many short appendages）"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "amphipathic",
+    "trans": [
+      "双亲性",
+      "Having both hydrophilic and hydrophobic parts.",
+      "双亲性：amphi = both。 磷脂头亲水、尾疏水。",
+      "has hydrophilic and hydrophobic parts"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "homeostasis",
+    "trans": [
+      "稳态",
+      "维持稳定内环境的过程",
+      "解释 internal condition 稳定",
+      "narrow range, steady state"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "electron shell",
+    "trans": [
+      "电子壳层",
+      "电子分布的能级"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "controlled variables",
+    "trans": [
+      "控制变量",
+      "保持一致的条件（≠ control group！）"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "dehydration reaction",
+    "trans": [
+      "脱水反应",
+      "A reaction that joins monomers by removing water and forming a covalent bond.",
+      "脱水反应：remove water to build。 形成共价键，释放水。",
+      "monomers join by removing water"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "organ",
+    "trans": [
+      "器官",
+      "多种 tissue 组合成的功能结构（心、肺）",
+      "多种组织组合起来做一个具体功能"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "r group",
+    "trans": [
+      "R 基",
+      "The variable side chain that gives each amino acid its properties.",
+      "R 基：R = variable side chain。 R 基决定氨基酸是亲水、疏水、酸性还是碱性。",
+      "side chain determines amino acid properties"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "nervous tissue",
+    "trans": [
+      "neuron 的功能和结构",
+      "stimulus, electrical impulse, dendrite, axon",
+      "神经组织",
+      "快速传递 electrical impulses"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "electronegativity",
+    "trans": [
+      "电负性",
+      "An atom's ability to attract electrons in a chemical bond.",
+      "电负性：吸电子能力。 O/N 比 C/H 更会拉电子。",
+      "Ch02 原子结构、化学键、水的性质和 pH。 常见陷阱：O/N 比 C/H 更会拉电子。"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "nervous system",
+    "trans": [
+      "快速电信号控制和协调",
+      "brain, spinal cord, nerves, electrical impulses"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "bone",
+    "trans": [
+      "skeleton"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "regulation",
+    "trans": [
+      "调节/稳态",
+      "The control of internal conditions so a living thing can stay alive.",
+      "调节/稳态：regulate = 控制。 重点是 internal environment，不是外界环境。",
+      "Ch01 生命特征；和 internal environment / homeostasis 同一类判断。"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "phospholipid",
+    "trans": [
+      "磷脂",
+      "A lipid with a hydrophilic phosphate head and two hydrophobic fatty acid tails.",
+      "磷脂：phospho = 磷酸；lipid = 脂类。 双亲性：头亲水，尾疏水，是细胞膜主要成分。",
+      "cell membrane; hydrophilic head + hydrophobic tails"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "ribonucleic acid",
+    "trans": [
+      "核糖核酸",
+      "DNA 与 protein 之间的中间分子"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "adaptation",
+    "trans": [
+      "适应",
+      "多代积累的有利遗传性状"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "surface area to volume ratio",
+    "trans": [
+      "表面积体积比",
+      "The amount of cell surface area compared with cell volume.",
+      "表面积体积比：窗口/肉。 细胞变大 SA/V 下降。",
+      "SA/V limits cell size"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "nuclear envelope",
+    "trans": [
+      "核膜",
+      "The double membrane that surrounds the nucleus.",
+      "核膜：包住细胞核。 属于内膜系统成员。",
+      "double membrane around nucleus"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "non-ciliated simple columnar epithelium",
+    "trans": [
+      "一层高柱状，无纤毛",
+      "secretion and absorption",
+      "stomach, small intestine, large intestine, gall bladder"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "neutral",
+    "trans": [
+      "中性"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "falsifiable",
+    "trans": [
+      "可证伪的",
+      "能被证据反驳"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "anatomy",
+    "trans": [
+      "解剖学",
+      "看结构：what it is made of / where it is"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "stratified squamous epithelium",
+    "trans": [
+      "多层，表面扁平",
+      "protect against abrasion, invasion, water loss, UV in skin",
+      "epidermis, mouth, vagina"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "DNA",
+    "trans": [
+      "脱氧核糖核酸",
+      "编码遗传信息的双链分子"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "negative feedback",
+    "trans": [
+      "拆 stressor → sensor → control center → effector → response",
+      "response reverses the original change",
+      "负反馈",
+      "response 把变化拉回正常"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "primary structure",
+    "trans": [
+      "一级结构",
+      "The amino acid sequence of a protein.",
+      "一级结构：primary = 第一层。 顺序变了，蛋白质形状和功能可能变。",
+      "amino acid sequence"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "prokaryotic cell",
+    "trans": [
+      "原核细胞",
+      "A cell without a nucleus or membrane-bound organelles.",
+      "原核细胞：pro = before；karyon = nucleus（细胞核）。 细菌域（Bacteria）和古菌域（Archaea）都是原核。",
+      "Ch01/Ch04 细胞类型；没有 nucleus，DNA 在 nucleoid region。"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "surface tension",
+    "trans": [
+      "表面张力",
+      "The resistance of a liquid surface to being stretched or broken.",
+      "表面张力：液体表面像绷紧的膜。 是 cohesion 的结果，不是定义本身。",
+      "Ch02 原子结构、化学键、水的性质和 pH。 常见陷阱：是 cohesion 的结果，不是定义本身。"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "simple squamous epithelium",
+    "trans": [
+      "simple = 一层；squamous = 扁平",
+      "diffusion / filtration",
+      "air sacs of lungs, blood vessels; inside blood vessels = endothelium"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "nucleoid region",
+    "trans": [
+      "拟核区",
+      "The DNA-containing region of a prokaryotic cell that is not surrounded by a membrane.",
+      "拟核区：原核 DNA 区。 原核有拟核区（nucleoid），不是真正细胞核（nucleus）。",
+      "DNA region without membrane"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "compartmentalization",
+    "trans": [
+      "分区化",
+      "The separation of cell functions into different internal compartments.",
+      "分区化：分车间。 真核优势：隔开反应、酶靠近、局部浓度高。",
+      "functional compartments increase efficiency"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "domain",
+    "trans": [
+      "域（最高分类层级）"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "lysosome",
+    "trans": [
+      "溶酶体",
+      "A digestive organelle with enzymes that break down macromolecules.",
+      "溶酶体：动物回收站。 动物 only；植物主要用 vacuole。",
+      "hydrolytic enzymes digest macromolecules"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "anchoring junction",
+    "trans": [
+      "锚定连接",
+      "A cell junction that fastens cells together and resists pulling forces.",
+      "锚定连接：anchor = 锚，抗拉。 关键词 stretch / mechanical stress。",
+      "fastens cells together; resists pulling"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "controlled experiment",
+    "trans": [
+      "对照实验",
+      "操控 1 个 independent var，观察 dependent var 变化"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "neutron",
+    "trans": [
+      "中子",
+      "A neutral particle in the atomic nucleus.",
+      "中子：neutral。 mass number = protons + neutrons。",
+      "Ch02 原子结构、化学键、水的性质和 pH。 常见陷阱：mass number = protons + neutrons。"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "immune system",
+    "trans": [
+      "防御 pathogens",
+      "infection, bacteria, immune cells"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "organelle",
+    "trans": [
+      "细胞器",
+      "cell 内特化的结构"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "control group",
+    "trans": [
+      "对照组",
+      "The comparison group that does not receive the experimental treatment.",
+      "对照组：comparison baseline。 controlled variable 是保持不变的条件，不是组。",
+      "Ch01 experiment design；comparison baseline，不要和 controlled variables 混。"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "response to environment",
+    "trans": [
+      "对环境响应",
+      "A living thing's reaction to a stimulus from its surroundings.",
+      "对环境响应：response = 反应。 刺激（stimuli）是题干关键词。",
+      "Ch01 生命特征；题干看到 stimulus / stimuli 就想到它。"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "flagella",
+    "trans": [
+      "鞭毛",
+      "One or a few long cell appendages used for movement.",
+      "鞭毛：少而长。 精子运动。",
+      "few long appendages"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "cellulose",
+    "trans": [
+      "纤维素",
+      "A structural polysaccharide found in plant cell walls.",
+      "纤维素：植物结构。 人不能消化 β 连接（beta linkage）。",
+      "structural polysaccharide in plant cell walls"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "muscle tissue",
+    "trans": [
+      "分 voluntary / involuntary",
+      "skeletal = voluntary；smooth/cardiac = involuntary",
+      "肌肉组织",
+      "contraction 收缩产生运动"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "cardiac muscle",
+    "trans": [
+      "心肌，involuntary，不自主"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "hydration shell",
+    "trans": [
+      "水合层",
+      "water 分子包围溶质形成的壳"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "pH",
+    "trans": [
+      "pH 值"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "peptide bond",
+    "trans": [
+      "肽键",
+      "A covalent bond that connects amino acids in a protein.",
+      "肽键：连接氨基酸。 一级结构靠肽键。",
+      "covalent bond between amino acids"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "hydroxyl group",
+    "trans": [
+      "羟基",
+      "A polar -OH group that often makes molecules more hydrophilic.",
+      "羟基：OH。 糖里很多 OH。",
+      "Ch03 碳、官能团、脱水/水解和四类大分子。 常见陷阱：糖里很多 OH。"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "octet rule",
+    "trans": [
+      "八隅律",
+      "原子倾向于让 valence shell 填满"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "membrane-bound organelle",
+    "trans": [
+      "膜包细胞器",
+      "由膜分隔的 organelle (mito, ER, Golgi…)"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "urinary system",
+    "trans": [
+      "排 metabolic wastes，调节 blood composition",
+      "kidneys, urine, wastes"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "emergent property",
+    "trans": [
+      "涌现性质",
+      "A new property that appears when smaller parts interact as a larger system.",
+      "涌现性质：emerge = 冒出来。 低层级没有，组合后出现。",
+      "Ch01 生物层级；从 molecule 到 cell 到 organism，层级越高出现新性质。"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "fatty acid",
+    "trans": [
+      "脂肪酸",
+      "A long hydrocarbon chain with a carboxyl group at one end.",
+      "脂肪酸：fatty = 脂肪；acid = 羧基尾端。 长 C-H 链让它疏水、富含能量。",
+      "long hydrocarbon chain with carboxyl group"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "central dogma",
+    "trans": [
+      "中心法则",
+      "The flow of genetic information from DNA to RNA to protein.",
+      "中心法则：dogma = 核心规则。 transcription 和 translation 方向不要反。",
+      "Ch01 信息流；DNA → RNA → protein。"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "atomic number",
+    "trans": [
+      "原子序数",
+      "proton 数"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "independent variable",
+    "trans": [
+      "自变量",
+      "The variable that the experimenter changes.",
+      "自变量：independent = 实验者操控。 不是测量结果。",
+      "Ch01 experiment design；实验者主动改变的因素。"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "eukaryotic cell",
+    "trans": [
+      "真核细胞",
+      "A cell with a nucleus and membrane-bound organelles.",
+      "真核细胞：eu = true；true nucleus（真正的细胞核）。 动物、植物、真菌、人都是真核。",
+      "Ch01/Ch04 细胞类型；有 nucleus 和 membrane-bound organelles。"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "exchange surfaces",
+    "trans": [
+      "解释为什么要增加 surface area",
+      "more exchange with every cell"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "functional group",
+    "trans": [
+      "官能团",
+      "A group of atoms that changes the properties and reactions of a molecule.",
+      "官能团：分子反应按钮。 甲基是非极性陷阱。",
+      "Ch03 molecular properties；决定 molecule 的反应和亲水/疏水。"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "cell membrane",
+    "trans": [
+      "细胞膜",
+      "分隔内外环境并 regulate 进出物质"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "smooth er",
+    "trans": [
+      "光面内质网",
+      "Endoplasmic reticulum that makes lipids, stores calcium, and detoxifies drugs.",
+      "光面内质网：无核糖体（ribosome）。 肝细胞多光面内质网（smooth ER）。",
+      "lipid synthesis, calcium storage, detoxification"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "covalent bond",
+    "trans": [
+      "共价键",
+      "A chemical bond in which atoms share electrons.",
+      "共价键：co = 共同；共享电子。 脱水反应形成的新键属于共价键。",
+      "Ch02 chemical bonds + Ch03 dehydration reaction；形成 polymer 时常形成共价键。"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "electron",
+    "trans": [
+      "电子",
+      "A negatively charged particle found in electron shells.",
+      "电子：negative。 中性原子 electrons = protons。",
+      "Ch02 原子结构、化学键、水的性质和 pH。 常见陷阱：中性原子 electrons = protons。"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "cytoplasm",
+    "trans": [
+      "细胞质",
+      "The region inside the cell membrane and outside the nucleus.",
+      "细胞质：核外所有内容。 胞质溶胶（cytosol）只是液体部分。",
+      "region between nucleus and plasma membrane"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "ECM",
+    "trans": [
+      "细胞外基质",
+      "A network outside animal cells that supports, attaches, and signals to cells.",
+      "细胞外基质：extra = 外面；cellular = 细胞。 动物细胞外；植物主要是 cell wall。",
+      "animal cell support, adhesion, signaling"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "ionic bond",
+    "trans": [
+      "离子键",
+      "An attraction between oppositely charged ions after electron transfer.",
+      "离子键：ion = 离子；得失电子后相吸。 水中会被水分子削弱/分开。",
+      "Ch02 chemical bonds；水中容易被 polar water molecules 分开。"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "emergent properties",
+    "trans": [
+      "涌现性质",
+      "部分组合后新出现的性质"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "scientific theory",
+    "trans": [
+      "科学理论",
+      "A broad explanation supported by a large body of evidence.",
+      "科学理论：不是日常“猜想”。 theory 不会由 hypothesis 自动升级。",
+      "Ch01 scientific method；不是 guess，是 evidence-supported broad explanation。"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "tight junction",
+    "trans": [
+      "紧密连接",
+      "A cell junction that seals spaces between animal cells to prevent leakage.",
+      "紧密连接：tight = 紧，不漏。 关键词 leak / seal / barrier。",
+      "prevents leakage between animal cells"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "nucleolus",
+    "trans": [
+      "核仁",
+      "The region inside the nucleus where ribosomal RNA is made.",
+      "核仁：核内造 rRNA。 不是 nucleus 本身。",
+      "synthesizes ribosomal RNA"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "ecosystem",
+    "trans": [
+      "生态系统",
+      "A system made of organisms and nonliving environmental factors.",
+      "生态系统：eco = 环境；system = 系统。 包含非生物因素（abiotic factors）。",
+      "Ch01 生态层级；organisms + abiotic factors。"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "nonpolar covalent bond",
+    "trans": [
+      "非极性共价键",
+      "A covalent bond where electrons are shared about equally.",
+      "非极性共价键：nonpolar = 电荷分布均匀。 C-H 通常非极性。",
+      "Ch02 polarity；C-H/C-C 常见，和 hydrophobic lipids 联系。"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "RNA",
+    "trans": [
+      "核糖核酸",
+      "DNA 与 protein 之间的中间分子"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "plasmodesmata",
+    "trans": [
+      "胞间连丝",
+      "Channels through plant cell walls that connect neighboring plant cells.",
+      "胞间连丝：植物细胞通道。 植物没有 gap junction。",
+      "channels through plant cell walls"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "theory",
+    "trans": [
+      "(科学) 理论",
+      "大量证据支持的解释框架（cell theory, evolution）"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "ciliated simple columnar epithelium",
+    "trans": [
+      "一层高柱状，有纤毛",
+      "move mucus / move oocytes",
+      "bronchioles, uterine tubes"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "evolutionary adaptation",
+    "trans": [
+      "进化适应",
+      "A heritable trait that becomes common because it helps survival or reproduction.",
+      "进化适应：adapt = 适应；evolutionary = 世代变化。 个体不在一生中进化；种群跨代变化。",
+      "Ch01 进化；强调 population over generations，不是个体当场改变。"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "microfilament",
+    "trans": [
+      "微丝",
+      "A thin cytoskeleton fiber made of actin.",
+      "微丝：肌动蛋白（actin）；最细。 肌肉收缩相关。",
+      "actin; shape and movement"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "elasticity",
+    "trans": [
+      "被拉长后能回到 original length / shape"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "inductive reasoning",
+    "trans": [
+      "归纳推理"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "node",
+    "trans": [
+      "节点",
+      "Tree 上 groups 分歧 (diverged) 的位置"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "speciation",
+    "trans": [
+      "物种形成",
+      "不同 population 演化为不同 species"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "solvent",
+    "trans": [
+      "溶剂",
+      "溶解溶质的液体（water = universal solvent）"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "phosphate group",
+    "trans": [
+      "磷酸基",
+      "A charged group containing phosphorus and oxygen.",
+      "磷酸基：P + O。 DNA、ATP、磷脂。",
+      "Ch03 碳、官能团、脱水/水解和四类大分子。 常见陷阱：DNA、ATP、磷脂。"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "secondary structure",
+    "trans": [
+      "二级结构",
+      "Local protein folding such as alpha helices and beta sheets.",
+      "二级结构：secondary = 第二层局部折叠。 靠主链氢键，不是 R 基整体折叠。",
+      "alpha helix or beta sheet; hydrogen bonds"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "loose connective tissue",
+    "trans": [
+      "around organs in abdominal cavity"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "skeletal muscle",
+    "trans": [
+      "骨骼肌，voluntary，自主控制"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "gene",
+    "trans": [
+      "基因",
+      "对应一个 protein 的 DNA 序列"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "rough er",
+    "trans": [
+      "粗面内质网",
+      "Endoplasmic reticulum with ribosomes that makes proteins and membranes.",
+      "粗面内质网：有核糖体（ribosome）。 分泌蛋白 / 膜蛋白路径。",
+      "synthesizes proteins and membranes"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "microtubule",
+    "trans": [
+      "微管",
+      "A thick cytoskeleton tube made of tubulin that acts as a transport track.",
+      "微管：微管蛋白（tubulin）；最粗轨道。 纤毛（cilia）/ 鞭毛（flagella）都靠微管（microtubules）。",
+      "tubulin; rigid tracks for transport"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "base",
+    "trans": [
+      "A substance that decreases hydrogen ion concentration or binds hydrogen ions.",
+      "碱：拿走/结合 H+。 降低 H+ 浓度。",
+      "Ch02 原子结构、化学键、水的性质和 pH。 常见陷阱：降低 H+ 浓度。",
+      "binds to H+ or releases OH-"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "unsaturated fatty acid",
+    "trans": [
+      "不饱和脂肪酸",
+      "A fatty acid with one or more carbon-carbon double bonds.",
+      "不饱和脂肪酸：un = 不；还没被氢填满。 有 C=C 双键，链弯，常温更可能是液体。",
+      "one or more double bonds; kinked chain; oil"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "observational study",
+    "trans": [
+      "观察性研究",
+      "controlled experiment 不可行时用大量观察"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "reproductive system",
+    "trans": [
+      "sperm, egg, embryo"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "reproduction",
+    "trans": [
+      "繁殖",
+      "The process by which living things produce more of their own kind.",
+      "繁殖：produce again = 产生后代。 火蔓延不是 reproduction；没有遗传信息。",
+      "Ch01 生命特征；和 DNA 遗传信息、产生同类后代一起考。"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "energy processing",
+    "trans": [
+      "能量处理",
+      "The way living things take in and use energy to power life activities.",
+      "能量处理：processing = 使用/处理。 燃烧有化学反应，但不能单凭这条判定 alive。",
+      "Ch01 生命特征；常和 metabolism / chemical reactions 一起出现。"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "hydrophobic",
+    "trans": [
+      "疏水",
+      "Water-fearing; does not mix well with water because it is nonpolar.",
+      "疏水：phobic = fear。 长 C-H 链通常疏水。",
+      "nonpolar; water-fearing"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "connective tissue",
+    "trans": [
+      "按 ECM 和功能认 tissue",
+      "matrix, fibres, fat, cartilage, bone, plasma",
+      "结缔组织",
+      "支撑、连接、固定，特点是 ECM 多"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "mitochondrion",
+    "trans": [
+      "线粒体",
+      "An organelle that performs cellular respiration and makes ATP.",
+      "线粒体：发电站。 所有真核都有。",
+      "cellular respiration; ATP production"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "fibrous connective tissue",
+    "trans": [
+      "tendons connect muscle to bone; ligaments connect bone to bone"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "heritable trait",
+    "trans": [
+      "可遗传性状",
+      "能传给后代的性状（必须可遗传才能被选择）"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "hierarchy",
+    "trans": [
+      "层级"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "natural selection",
+    "trans": [
+      "自然选择",
+      "The process in which traits that improve reproduction become more common over generations.",
+      "自然选择：nature selects = 环境筛选。 个体被选择，种群进化。",
+      "helpful traits leave more offspring"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "experimental group",
+    "trans": [
+      "实验组",
+      "independent variable 被操控的组"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "deductive reasoning",
+    "trans": [
+      "演绎推理"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "buffer",
+    "trans": [
+      "缓冲液",
+      "A substance that resists changes in pH.",
+      "缓冲液：抵抗 pH 变化。 H+ 多时接受，H+ 少时释放。",
+      "resists pH change"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "diversity of life",
+    "trans": [
+      "生命的多样性"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "last universal common ancestor",
+    "trans": [
+      "最近共同祖先",
+      "所有生物共享的祖先"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "deoxyribose",
+    "trans": [
+      "脱氧核糖",
+      "The sugar found in DNA.",
+      "脱氧核糖：deoxy = 少一个氧。 DNA 的 D 就可以记 deoxyribose。",
+      "sugar in DNA"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "amino group",
+    "trans": [
+      "氨基",
+      "A basic -NH2 group that can bind hydrogen ions.",
+      "氨基：NH2。 氨基酸有 amino 和 carboxyl。",
+      "Ch03 碳、官能团、脱水/水解和四类大分子。 常见陷阱：氨基酸有 amino 和 carboxyl。"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "biosphere",
+    "trans": [
+      "生物圈",
+      "Earth 上所有支持 life 的环境"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "hydrocarbon",
+    "trans": [
+      "碳氢化合物",
+      "A molecule made only of carbon and hydrogen.",
+      "碳氢化合物：hydro = H；carbon = C。 非极性、疏水、富含能量。",
+      "Ch03 碳、官能团、脱水/水解和四类大分子。 常见陷阱：非极性、疏水、富含能量。"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "respiratory system",
+    "trans": [
+      "气体交换，拿 O2、排 CO2",
+      "lungs, gas exchange, oxygen, carbon dioxide"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "organic molecule",
+    "trans": [
+      "有机分子",
+      "A carbon-based molecule usually containing carbon and hydrogen.",
+      "有机分子：这里不是有机食品。 必须化学语境：C 和 H。",
+      "Ch03 carbon chemistry；通常含 C 和 H。"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "LUCA",
+    "trans": [
+      "最近共同祖先",
+      "所有生物共享的祖先"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "unity of life",
+    "trans": [
+      "生命的统一性"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "carbon skeleton",
+    "trans": [
+      "碳骨架",
+      "The carbon chain or ring that forms the backbone of an organic molecule.",
+      "碳骨架：分子主干。 多样性来自长度、分支、环、双键位置。",
+      "chain or ring of carbon atoms"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "insulin",
+    "trans": [
+      "lowers blood glucose by stimulating cells to take up and store glucose"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "tissue",
+    "trans": [
+      "组织",
+      "完成特定功能的同类 cell 群",
+      "一群相似细胞一起做同一类工作"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "structure-function",
+    "trans": [
+      "用例子解释结构如何配合功能",
+      "thin, flat, folded, large surface area, cushion, contract"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "polar covalent bond",
+    "trans": [
+      "极性共价键",
+      "A covalent bond where electrons are shared unequally.",
+      "极性共价键：polar = 电荷分布不均。 O-H、N-H 常是极性。",
+      "Ch02 polarity；O-H/N-H 常见，能导致 hydrophilic behavior。"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "prediction",
+    "trans": [
+      "预测",
+      "hypothesis 的可检验后果，\"if … then …\" 形式"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "charles darwin",
+    "trans": [
+      "达尔文",
+      "1859《On the Origin of Species》作者"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "glucagon",
+    "trans": [
+      "raises blood glucose by stimulating cells to release glucose"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "intermediate filament",
+    "trans": [
+      "中间丝",
+      "A cytoskeleton fiber that strengthens cells and anchors organelles.",
+      "中间丝：intermediate = 中间粗细。 主要负责加固和锚定，不是运输轨道。",
+      "reinforces cell shape; anchors organelles"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "blood",
+    "trans": [
+      "circulatory system"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "evaporative cooling",
+    "trans": [
+      "蒸发降温",
+      "蒸发带走高能水分子 → 降温"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "denaturation",
+    "trans": [
+      "变性",
+      "The loss of a protein's normal shape and function.",
+      "变性：形状坏掉。 通常破坏 2/3/4 级，不是 1 级。",
+      "protein loses normal shape and function"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "order",
+    "trans": [
+      "有序性",
+      "The organized structure of living things, usually based on cells and biological molecules.",
+      "有序性：order = 有组织、有结构。 不是漂亮排列就够，生命的 order 以细胞为基础。",
+      "Ch01 生命特征；强调生命的结构基础是细胞，不是随便排列整齐。"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "metabolism",
+    "trans": [
+      "新陈代谢",
+      "cell 内全部化学反应的总和"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "uracil",
+    "trans": [
+      "尿嘧啶",
+      "An RNA nitrogenous base that replaces thymine and pairs with adenine.",
+      "尿嘧啶：U 替代 RNA 里的 T。 RNA 用 U，不用 T。",
+      "RNA base that pairs with adenine"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "cohesion",
+    "trans": [
+      "内聚",
+      "The attraction between molecules of the same kind.",
+      "内聚：co = together；同种分子相黏。 same kind -> cohesion；different kinds -> adhesion。",
+      "same kind molecules stick together"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "atom",
+    "trans": [
+      "原子",
+      "The smallest unit of an element that keeps that element's chemical properties.",
+      "原子：元素最小单位。 原子身份由 proton number 决定。",
+      "Ch02 原子结构、化学键、水的性质和 pH。 常见陷阱：原子身份由 proton number 决定。"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "element",
+    "trans": [
+      "元素",
+      "A substance that cannot be broken down by chemical reactions.",
+      "元素：一种原子。 O2 仍是 element，不是 compound。",
+      "Ch02 原子结构、化学键、水的性质和 pH。 常见陷阱：O2 仍是 element，不是 compound。"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "mass number",
+    "trans": [
+      "质量数",
+      "proton + neutron 数"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "skeletal system",
+    "trans": [
+      "bones, joints, skeleton"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "taxonomy",
+    "trans": [
+      "分类学"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "cell",
+    "trans": [
+      "细胞",
+      "生命的基本单位 (fundamental unit of life)"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "acidosis",
+    "trans": [
+      "酸中毒",
+      "血液 pH 异常偏低"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "species",
+    "trans": [
+      "物种",
+      "能交配产生可育后代的群体（基本定义）"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "nucleotide",
+    "trans": [
+      "核苷酸",
+      "The monomer of nucleic acids, made of phosphate, sugar, and a nitrogenous base.",
+      "核苷酸：核酸单体。 不包含 amino acid。",
+      "phosphate + sugar + nitrogenous base"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "glycogen",
+    "trans": [
+      "糖原",
+      "An animal storage polysaccharide found mainly in liver and muscle cells.",
+      "糖原：动物储能。 肝脏和肌肉是 cue。",
+      "animal storage polysaccharide"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "trace element",
+    "trans": [
+      "痕量元素",
+      "量极少但生命必需 (Fe, I, Zn)"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "bacteria",
+    "trans": [
+      "细菌域",
+      "最广泛的 prokaryote"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "descent with modification",
+    "trans": [
+      "带修饰的延续",
+      "Darwin 提出的演化定义"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "solute",
+    "trans": [
+      "溶质",
+      "被溶解的物质"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "observation",
+    "trans": [
+      "观察",
+      "用感官获取信息（看 / 听 / 测）"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "golgi apparatus",
+    "trans": [
+      "高尔基体",
+      "An organelle that modifies, sorts, and packages cell products.",
+      "高尔基体：包装发货。 cis 进，trans 出。",
+      "modifies, sorts, packages ER products"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "monophyletic",
+    "trans": [
+      "单系（共同祖先）"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "lymphatic system",
+    "trans": [
+      "回收/过滤 lymph，回到 circulatory system",
+      "lymph, return fluid, filter"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "scientific method",
+    "trans": [
+      "科学方法"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "anion",
+    "trans": [
+      "阴离子",
+      "获得 electron 后带负电的离子"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "ribose",
+    "trans": [
+      "核糖",
+      "The sugar found in RNA.",
+      "核糖：RNA 里的糖。 RNA 用 ribose，DNA 用 deoxyribose。",
+      "sugar in RNA"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "specific heat",
+    "trans": [
+      "比热容",
+      "单位质量升 1°C 所需热量"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "proton",
+    "trans": [
+      "质子",
+      "A positively charged particle in the atomic nucleus.",
+      "质子：positive。 atomic number = protons。",
+      "Ch02 原子结构、化学键、水的性质和 pH。 常见陷阱：atomic number = protons。"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "translation",
+    "trans": [
+      "翻译",
+      "The process of making a protein from an RNA message.",
+      "翻译：translate = 换语言；核酸语言变蛋白语言。 protein 的单体是 amino acids。",
+      "Ch01 central dogma；RNA 信息再做成 protein。"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "plasma membrane",
+    "trans": [
+      "质膜",
+      "The selectively permeable boundary of a cell.",
+      "质膜：细胞边界。 所有细胞都有。",
+      "selectively permeable boundary"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "monosaccharide",
+    "trans": [
+      "单糖",
+      "A single sugar molecule and the simplest carbohydrate.",
+      "单糖：single sugar。 glucose/fructose/galactose。",
+      "Ch03 carbohydrates；glucose/fructose/galactose 是单糖。"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "radioactive isotope",
+    "trans": [
+      "放射性同位素",
+      "不稳定 isotope，会衰变释放能量 (e.g., C-14)"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "monomer",
+    "trans": [
+      "单体",
+      "A small building block that can be joined to make larger molecules.",
+      "单体：mono = one。 氨基酸/核苷酸/单糖。",
+      "Ch03 碳、官能团、脱水/水解和四类大分子。 常见陷阱：氨基酸/核苷酸/单糖。"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "integumentary system",
+    "trans": [
+      "skin/hair/nails 保护身体",
+      "skin, hair, nails, burn"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "cell theory",
+    "trans": [
+      "细胞学说",
+      "The idea that all living things are made of cells and cells come from pre-existing cells.",
+      "细胞学说：theory 不是猜，是证据支持的解释。 不要漏第二句：细胞来自已有细胞。",
+      "Ch01 细胞学说；所有生命由细胞组成，细胞来自已有细胞。"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "organ systems",
+    "trans": [
+      "看到器官或功能，选系统",
+      "kidney = urinary；skin = integumentary；gas exchange = respiratory"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "polymer",
+    "trans": [
+      "多聚物",
+      "A large molecule made of many repeating monomers.",
+      "多聚物：poly = many。 脂质不是典型 polymer。",
+      "Ch03 碳、官能团、脱水/水解和四类大分子。 常见陷阱：脂质不是典型 polymer。"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "polysaccharide",
+    "trans": [
+      "多糖",
+      "A carbohydrate polymer made of many monosaccharides.",
+      "多糖：many sugars。 starch/glycogen/cellulose。",
+      "Ch03 carbohydrates；starch/glycogen/cellulose 都是多糖。"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "quaternary structure",
+    "trans": [
+      "四级结构",
+      "A protein structure made from two or more polypeptide subunits.",
+      "四级结构：quaternary = 第四层，多条链组合。 只有多条多肽链组合时才有四级结构。",
+      "two or more polypeptide subunits"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "physiology",
+    "trans": [
+      "生理学",
+      "看功能：what it does / how it works"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "simple cuboidal epithelium",
+    "trans": [
+      "一层方块状",
+      "secretion or absorption",
+      "kidney tubules, ducts of pancreas, thyroid glands"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "variation",
+    "trans": [
+      "变异",
+      "population 中性状的个体差异"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "extracellular matrix",
+    "trans": [
+      "细胞外基质",
+      "A network outside animal cells that supports, attaches, and signals to cells.",
+      "细胞外基质：extra = 外面；cellular = 细胞。 动物细胞外；植物主要是 cell wall。",
+      "animal cell support, adhesion, signaling"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "contractility",
+    "trans": [
+      "能有力收缩 / shorten with force"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "hydrolysis",
+    "trans": [
+      "水解",
+      "A reaction that breaks polymers by adding water.",
+      "水解：water break。 hydrolysis is reverse of dehydration。",
+      "polymers break by adding water"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "acid",
+    "trans": [
+      "A substance that increases hydrogen ion concentration.",
+      "酸：放 H+。 H+ 越多 pH 越低。",
+      "Ch02 原子结构、化学键、水的性质和 pH。 常见陷阱：H+ 越多 pH 越低。",
+      "donates H+; increases H+ concentration"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "cytoskeleton",
+    "trans": [
+      "细胞骨架",
+      "A network of protein fibers that supports cell shape, movement, and internal transport.",
+      "细胞骨架：内部支架和轨道。 三种 filament 要分。",
+      "shape, support, movement, transport"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "alkalosis",
+    "trans": [
+      "碱中毒",
+      "血液 pH 异常偏高"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "smooth muscle",
+    "trans": [
+      "平滑肌，involuntary，不自主"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "protein",
+    "trans": [
+      "蛋白质",
+      "由 amino acids 组成，执行 cell 内功能"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "organ system",
+    "trans": [
+      "器官系统",
+      "多个 organ 协同完成功能",
+      "多个器官协同完成大功能"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "thymine",
+    "trans": [
+      "胸腺嘧啶",
+      "A DNA nitrogenous base that pairs with adenine.",
+      "胸腺嘧啶：T 只在 DNA 常规配对里出现。 DNA 用 T；RNA 用 U。",
+      "DNA base that pairs with adenine"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "nucleus",
+    "trans": [
+      "细胞核",
+      "真核 cell 中包含 DNA 的核膜结构"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "phylogenetic tree",
+    "trans": [
+      "演化树"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "transcription",
+    "trans": [
+      "转录",
+      "The process of making RNA from a DNA template.",
+      "转录：script = 写；DNA 信息抄成 RNA。 不是 RNA 到 protein。",
+      "Ch01 central dogma；DNA 信息先抄成 RNA。"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "amino acid",
+    "trans": [
+      "氨基酸",
+      "The monomer of proteins, with an amino group, carboxyl group, and R group.",
+      "氨基酸：一端 amino group，一端 carboxyl group。 不是 nucleotide；蛋白质由 amino acids 组成。",
+      "protein monomer"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "stratified cuboidal epithelium",
+    "trans": [
+      "多层方块状",
+      "protection, limited secretion and absorption",
+      "sweat gland ducts, mammary glands, salivary glands"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "triglyceride",
+    "trans": [
+      "甘油三酯",
+      "A lipid made of one glycerol molecule and three fatty acids.",
+      "甘油三酯：tri = three；1 个甘油 + 3 条脂肪酸。 不是典型 polymer；主要功能是长期储能。",
+      "long-term energy storage; fat/oil"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "molecule",
+    "trans": [
+      "分子",
+      "由 chemical bonds 结合的原子组合"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "cartilage",
+    "trans": [
+      "joints, nose, ears, trachea, intervertebral discs"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "extensibility",
+    "trans": [
+      "能被拉长 beyond resting length"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "circulatory system",
+    "trans": [
+      "heart + blood vessels 运输氧气、营养、废物",
+      "heart, blood, vessels, transport"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "valence electron",
+    "trans": [
+      "价电子",
+      "An electron in the outermost shell that helps determine bonding.",
+      "价电子：outer-shell electron。 决定反应性和能形成几个键。",
+      "Ch02 原子结构、化学键、水的性质和 pH。 常见陷阱：决定反应性和能形成几个键。"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "trans fatty acid",
+    "trans": [
+      "反式脂肪酸",
+      "An unsaturated fatty acid with a straighter trans double-bond shape.",
+      "反式脂肪酸：trans = 对侧；双键旁氢在相反侧。 有双键但形状更直，容易像 saturated fat 一样排紧。",
+      "unsaturated but straighter; trans fat"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "hydrogen bond",
+    "trans": [
+      "氢键",
+      "A weak attraction involving a partially positive hydrogen atom.",
+      "氢键：弱吸引，不是真正共价键。 水的四大性质都源于氢键。",
+      "Ch02 water properties；cohesion、temperature moderation、ice floating、solvent power 都靠它。"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "cytosol",
+    "trans": [
+      "胞质溶胶",
+      "The fluid part of the cytoplasm.",
+      "胞质溶胶：细胞质里的液体。 不要和细胞质（cytoplasm）混。",
+      "fluid portion of cytoplasm"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "gap junction",
+    "trans": [
+      "缝隙连接",
+      "A cell junction that allows small molecules to pass between animal cells.",
+      "缝隙连接：gap = 小缝通道。 动物细胞沟通；植物对应 plasmodesmata。",
+      "allows small molecules to pass between animal cells"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "saturated fatty acid",
+    "trans": [
+      "饱和脂肪酸",
+      "A fatty acid with no carbon-carbon double bonds.",
+      "饱和脂肪酸：saturated = 氢已经满了。 没有 C=C 双键，所以链直，容易排紧。",
+      "no double bonds; straight chain; solid fat"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "van der waals interaction",
+    "trans": [
+      "范德华力",
+      "临时的弱相互作用（贴近时）"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "properties of life",
+    "trans": [
+      "生命特征",
+      "The shared features that living things have, such as cells, reproduction, regulation, and adaptation.",
+      "生命特征：pro-per-ties = 特征；看到 alive / living 就想 7 条。 火会变大不等于生命；必须看细胞、DNA、繁殖同类、进化。",
+      "Ch01 生命判断题：用 7 条生命特征判断 fire / virus / cell 是否算生命。"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "solution",
+    "trans": [
+      "溶液",
+      "溶质 + 溶剂的混合物"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "peroxisome",
+    "trans": [
+      "过氧化物酶体",
+      "An organelle that breaks down fatty acids and converts hydrogen peroxide to water.",
+      "过氧化物酶体：处理脂肪酸和 H2O2。 不是内膜系统。",
+      "breaks fatty acids; converts H2O2 to water"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "excitability",
+    "trans": [
+      "能对 stimulus 反应"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "hypothesis",
+    "trans": [
+      "假设",
+      "A testable and falsifiable explanation for an observation.",
+      "假设：hypo = 暂时；可检验解释。 科学不能 prove hypothesis，只能 support / falsify。",
+      "Ch01 scientific method；必须 testable and falsifiable。"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "cation",
+    "trans": [
+      "阳离子",
+      "失去 electron 后带正电的离子"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "deoxyribonucleic acid",
+    "trans": [
+      "脱氧核糖核酸",
+      "编码遗传信息的双链分子"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "tertiary structure",
+    "trans": [
+      "三级结构",
+      "The overall three-dimensional shape of one polypeptide.",
+      "三级结构：tertiary = 第三层整体 3D。 R 基相互作用决定一条多肽的整体形状。",
+      "overall 3D shape of one polypeptide"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "growth and development",
+    "trans": [
+      "生长和发育",
+      "The DNA-guided process in which an organism becomes larger and changes over time.",
+      "生长和发育：growth 是变大，development 是按程序变化。 单纯变大不等于生物发育。",
+      "Ch01 生命特征；和 DNA/genes 控制发育联系。"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "community",
+    "trans": [
+      "群落",
+      "All the different living species in an ecosystem.",
+      "群落：community = 多种生物社区。 只算生物，不算水、土、温度。",
+      "Ch01 生态层级；只包括 living organisms，不包括 abiotic factors。"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "peer review",
+    "trans": [
+      "同行评议",
+      "科学发表前的审阅过程"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "endosymbiotic theory",
+    "trans": [
+      "内共生学说",
+      "The theory that mitochondria and chloroplasts evolved from bacteria living inside early eukaryotic cells.",
+      "内共生学说：吞下细菌成室友。 证据：自带 DNA、核糖体（ribosomes）、分裂、内膜酶像细菌。",
+      "线粒体/叶绿体（mitochondria/chloroplasts）来自被吞入的细菌（engulfed bacteria）"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "digestive system",
+    "trans": [
+      "stomach, intestine, nutrients, feces"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "archaea",
+    "trans": [
+      "古菌域",
+      "常居 extreme environments 的 prokaryote"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "evolution",
+    "trans": [
+      "演化"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "chloroplast",
+    "trans": [
+      "叶绿体",
+      "An organelle in plants and algae that performs photosynthesis.",
+      "叶绿体：光合工厂。 只在植物/藻。",
+      "photosynthesis; contains chlorophyll"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "versatile solvent",
+    "trans": [
+      "万能溶剂",
+      "A solvent that can dissolve many polar and ionic substances.",
+      "万能溶剂：versatile = 多功能。 水不能很好溶非极性油脂。",
+      "Ch02 原子结构、化学键、水的性质和 pH。 常见陷阱：水不能很好溶非极性油脂。"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "matter",
+    "trans": [
+      "物质",
+      "Anything that has mass and takes up space.",
+      "物质：not 事情；是占空间有质量的东西。 mass 是质量，不是重量。",
+      "Ch02 原子结构、化学键、水的性质和 pH。 常见陷阱：mass 是质量，不是重量。"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "endomembrane system",
+    "trans": [
+      "内膜系统",
+      "A group of membranes and organelles that make, modify, and transport cell products.",
+      "内膜系统：生产运输网络。 不包括线粒体（mitochondria）、叶绿体（chloroplasts）、过氧化物酶体（peroxisome）。",
+      "synthesizes, modifies, transports cell products"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "testable",
+    "trans": [
+      "可检验的",
+      "能用实验或观察验证"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "adhesion",
+    "trans": [
+      "附着",
+      "The attraction between molecules of different kinds.",
+      "附着：ad = toward；异种分子相黏。 水和玻璃/植物管壁。",
+      "different kinds molecules stick together"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "valence shell",
+    "trans": [
+      "价电子层",
+      "最外层 electron shell — 决定 chemical behavior"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "hydrophilic",
+    "trans": [
+      "亲水",
+      "Water-loving; able to interact with water because it is polar or charged.",
+      "亲水：phil = love。 OH/NH/COOH/charge 常亲水。",
+      "Ch02 water + Ch03 phospholipid head；polar/charged 能和水互动。"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "organism",
+    "trans": [
+      "个体生物",
+      "一个独立的 living thing"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "muscular system",
+    "trans": [
+      "skeletal muscle, smooth muscle, cardiac muscle"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "bicarbonate buffer",
+    "trans": [
+      "碳酸氢盐缓冲",
+      "H₂CO₃ ⇌ H⁺ + HCO₃⁻ — 血液主要 buffer"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "positive feedback",
+    "trans": [
+      "正反馈",
+      "response 放大原来的变化"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "compound",
+    "trans": [
+      "化合物",
+      "A substance made of two or more elements in a fixed ratio.",
+      "化合物：com = together；两种以上元素固定比例。 性质和组成元素可以完全不同。",
+      "Ch02 原子结构、化学键、水的性质和 pH。 常见陷阱：性质和组成元素可以完全不同。"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "selective pressure",
+    "trans": [
+      "选择压力",
+      "An environmental factor that affects which individuals survive and reproduce.",
+      "选择压力：pressure = 环境施压。 鸟吃蛾子：鸟是 pressure。",
+      "Ch01 natural selection 场景题；问环境中谁在筛选。"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "eukarya",
+    "trans": [
+      "真核域",
+      "所有真核生物（人类在此）"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "endocrine system",
+    "trans": [
+      "hormone 调节",
+      "hormones, glands, chemical signals"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "epithelial tissue",
+    "trans": [
+      "看层数 + 形状认 tissue",
+      "simple / stratified；squamous / cuboidal / columnar",
+      "上皮组织",
+      "覆盖表面、衬里、分泌、吸收、过滤、保护"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "reproductive advantage",
+    "trans": [
+      "繁殖优势",
+      "A trait-based advantage that helps an individual leave more offspring.",
+      "繁殖优势：advantage = 优势。 不是谁更强壮，而是谁留下更多后代。",
+      "Ch01 natural selection 场景题；问哪个 trait 留下更多 offspring。"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "adipose tissue",
+    "trans": [
+      "under skin, around vital organs"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "isotope",
+    "trans": [
+      "同位素",
+      "An atom of the same element with a different number of neutrons.",
+      "同位素：iso = same；同元素不同中子。 化学性质接近，因为电子结构相同。",
+      "Ch02 原子结构、化学键、水的性质和 pH。 常见陷阱：化学性质接近，因为电子结构相同。"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "population",
+    "trans": [
+      "种群",
+      "A group of individuals of the same species living in the same area.",
+      "种群：pop = 人群/群体。 必须是同一物种。",
+      "Ch01 生态层级；必须同一 species + 同一区域。"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "dependent variable",
+    "trans": [
+      "因变量",
+      "The variable that the experimenter measures.",
+      "因变量：dependent = 依赖操控变化。 题里 often asks what changed as result。",
+      "Ch01 experiment design；实验者测量的结果。"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  }
+]
