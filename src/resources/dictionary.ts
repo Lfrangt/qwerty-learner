@@ -700,7 +700,7 @@ const internationalExam: DictionaryResource[] = [
     category: '专业词汇',
     tags: ['生物', 'BIOL 1111'],
     url: '/dicts/BIOL_1111_Course_Terms.json',
-    length: 235,
+    length: 378,
     language: 'en',
     languageCategory: 'en',
   },

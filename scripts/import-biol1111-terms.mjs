@@ -5,6 +5,7 @@ import path from 'node:path'
 const DICTIONARY_ID = 'BIOL_1111_Course_Terms'
 const OUTPUT_PATH = path.join('public', 'dicts', `${DICTIONARY_ID}.json`)
 const DICTIONARY_RESOURCE_PATH = path.join('src', 'resources', 'dictionary.ts')
+const SUPPLEMENTAL_TERMS_PATH = path.join('scripts', 'data', 'biol1111-upcoming-terms.json')
 
 const sourceDirs = [
   ...(process.env.BIOL1111_SOURCE_DIRS ? process.env.BIOL1111_SOURCE_DIRS.split(path.delimiter) : []),
@@ -12,9 +13,22 @@ const sourceDirs = [
   path.join(os.homedir(), 'Documents', 'Summer_2026', 'BIOL_1111', 'notes'),
 ]
 
-const STOP_TERMS = new Set(['answer', 'blank', 'definition', 'english', 'function', 'location', 'question', 'term', 'type'])
+const STOP_TERMS = new Set([
+  'answer',
+  'blank',
+  'component',
+  'definition',
+  'english',
+  'function',
+  'location',
+  'part',
+  'question',
+  'term',
+  'topic',
+  'type',
+])
 
-const SOURCE_INCLUDE_PATTERN = /Glossary|术语对照表|单词背诵包|考前冲刺包|考前救急包/i
+const SOURCE_INCLUDE_PATTERN = /Glossary|术语对照表|单词背诵包|考前冲刺包|考前救急包|急救复习包|考前复习包/i
 const SOURCE_EXCLUDE_PATTERN = /模拟|考试卷|Fill_in|Anki|易考点|思维导图|Cheatsheet|_笔记|导读|详细|源课件|Outline/i
 
 function listMarkdownFiles(entryPath) {
@@ -50,7 +64,10 @@ function cleanCell(value) {
 }
 
 function normalizeHeader(value) {
-  return cleanCell(value).toLowerCase()
+  return cleanCell(value)
+    .toLowerCase()
+    .split(/\s*[\/／]\s*/)[0]
+    .trim()
 }
 
 function containsChinese(value) {
@@ -81,7 +98,14 @@ function toDisplayTerm(value) {
 
   if (/^[A-Z0-9+-]{2,}$/.test(cleaned)) return cleaned
   if (/^pH$/.test(cleaned)) return cleaned
-  return cleaned.toLowerCase()
+  return cleaned.toLowerCase().replace(/\bph\b/g, 'pH')
+}
+
+function splitEnglishParts(value) {
+  return cleanCell(value)
+    .split(/\s*[\/／]\s*|\s+\bor\b\s+|\s+\bvs\.?\b\s+/i)
+    .map((part) => part.replace(/[\u3400-\u9fff].*$/g, '').trim())
+    .filter(Boolean)
 }
 
 function splitTermVariants(value, header) {
@@ -108,10 +132,15 @@ function splitTermVariants(value, header) {
     addVariant(part)
   }
 
-  cleaned
-    .split(/\s+\/\s+|\s+or\s+/i)
-    .map((part) => part.trim())
-    .forEach(addPart)
+  splitEnglishParts(cleaned).forEach((part) => {
+    const pairedSystems = part.match(/^(.+?)\s+and\s+(.+?)\s+systems?$/i)
+    if (pairedSystems) {
+      addPart(`${pairedSystems[1]} system`)
+      addPart(`${pairedSystems[2]} system`)
+      return
+    }
+    addPart(part)
+  })
 
   if (variants.size === 0) addVariant(cleaned)
   return [...variants]
@@ -120,8 +149,14 @@ function splitTermVariants(value, header) {
 function isTermHeader(header) {
   return (
     /^english$/.test(header) ||
-    /english term|english exam|英文考试词|^英文$|^term$|^tissue$|^type$|^property$|organ system|^hormone$/.test(header)
+    /english term|english exam|英文考试词|^英文$|^term$|^topic$|^tissue$|^type$|^property$|^muscle property$|^system$|organ system|^mechanism$|^component$|^environment$|^hormone$/.test(
+      header,
+    )
   )
+}
+
+function hasTermCandidate(value, header = '') {
+  return splitTermVariants(value, header).length > 0
 }
 
 function isAnswerHeader(header, headers) {
@@ -164,6 +199,21 @@ function addEntry(entries, term, translations) {
   })
 }
 
+function collectSupplementalEntries(entries) {
+  if (!fs.existsSync(SUPPLEMENTAL_TERMS_PATH)) return 0
+
+  const supplementalEntries = JSON.parse(fs.readFileSync(SUPPLEMENTAL_TERMS_PATH, 'utf8'))
+  let count = 0
+  for (const entry of supplementalEntries) {
+    const term = toDisplayTerm(entry.name ?? '')
+    const translations = (Array.isArray(entry.trans) ? entry.trans : [entry.trans]).map(cleanCell).filter(Boolean)
+    if (!looksLikeTerm(term) || translations.length === 0) continue
+    addEntry(entries, term, translations)
+    count += 1
+  }
+  return count
+}
+
 function collectFromTable(entries, headerCells, rows) {
   const headers = headerCells.map(normalizeHeader)
   for (const row of rows) {
@@ -173,7 +223,7 @@ function collectFromTable(entries, headerCells, rows) {
       .map((header, index) => (isTermHeader(header) || isAnswerHeader(header, headers) ? index : -1))
       .filter((index) => index >= 0)
 
-    if (termIndexes.length === 0 && looksLikeTerm(row[0]) && row.slice(1).some(containsChinese)) {
+    if (termIndexes.length === 0 && hasTermCandidate(row[0]) && row.slice(1).some(containsChinese)) {
       termIndexes = [0]
     }
 
@@ -235,13 +285,16 @@ if (files.length === 0) {
 
 const entries = new Map()
 files.forEach((file) => collectEntriesFromMarkdown(file, entries))
+const supplementalCount = collectSupplementalEntries(entries)
 
 const dictionary = shuffle([...entries.values()].sort((left, right) => left.name.localeCompare(right.name, 'en', { sensitivity: 'base' })))
 
 fs.writeFileSync(OUTPUT_PATH, `${JSON.stringify(dictionary, null, 2)}\n`)
 updateDictionaryLength(dictionary.length)
 
-console.log(`Imported ${dictionary.length} BIOL 1111 terms from ${files.length} markdown files.`)
+console.log(
+  `Imported ${dictionary.length} BIOL 1111 terms from ${files.length} markdown files and ${supplementalCount} supplemental terms.`,
+)
 console.log(
   dictionary
     .slice(0, 12)
