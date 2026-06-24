@@ -5,7 +5,7 @@ import { romajiToHiragana } from '@/utils/kana'
 import noop from '@/utils/noop'
 import type { Howl } from 'howler'
 import { useAtomValue } from 'jotai'
-import { useEffect, useMemo, useState } from 'react'
+import { useCallback, useEffect, useMemo, useState } from 'react'
 import useSound from 'use-sound'
 import type { HookOptions } from 'use-sound/dist/types'
 
@@ -34,7 +34,11 @@ export function generateWordSoundSrc(word: string, pronunciation: Exclude<Pronun
   }
 }
 
-export default function usePronunciationSound(word: string, isLoop?: boolean) {
+function canUseBrowserSpeech(pronunciation: PronunciationType) {
+  return typeof window !== 'undefined' && 'speechSynthesis' in window && (pronunciation === 'us' || pronunciation === 'uk')
+}
+
+export default function usePronunciationSound(word: string, isLoop?: boolean, preferBrowserSpeech = false) {
   const pronunciationConfig = useAtomValue(pronunciationConfigAtom)
   const loop = useMemo(() => (typeof isLoop === 'boolean' ? isLoop : pronunciationConfig.isLoop), [isLoop, pronunciationConfig.isLoop])
   const [isPlaying, setIsPlaying] = useState(false)
@@ -46,6 +50,45 @@ export default function usePronunciationSound(word: string, isLoop?: boolean) {
     volume: pronunciationConfig.volume,
     rate: pronunciationConfig.rate,
   } as HookOptions)
+
+  const stopBrowserSpeech = useCallback(() => {
+    if (typeof window === 'undefined' || !('speechSynthesis' in window)) return
+    window.speechSynthesis.cancel()
+    setIsPlaying(false)
+  }, [])
+
+  const playBrowserSpeech = useCallback(() => {
+    if (!word || !canUseBrowserSpeech(pronunciationConfig.type)) return false
+
+    window.speechSynthesis.cancel()
+
+    const utterance = new SpeechSynthesisUtterance(word)
+    utterance.lang = pronunciationConfig.type === 'uk' ? 'en-GB' : 'en-US'
+    utterance.rate = pronunciationConfig.rate
+    utterance.volume = pronunciationConfig.volume
+
+    const voices = window.speechSynthesis.getVoices()
+    const voice =
+      voices.find((item) => item.lang.toLowerCase().startsWith(utterance.lang.toLowerCase())) ??
+      voices.find((item) => item.lang.toLowerCase().startsWith('en'))
+    if (voice) utterance.voice = voice
+
+    utterance.onstart = () => setIsPlaying(true)
+    utterance.onend = () => setIsPlaying(false)
+    utterance.onerror = () => setIsPlaying(false)
+    window.speechSynthesis.speak(utterance)
+    return true
+  }, [pronunciationConfig.rate, pronunciationConfig.type, pronunciationConfig.volume, word])
+
+  const playSound = useCallback(() => {
+    if (preferBrowserSpeech && playBrowserSpeech()) return
+    play()
+  }, [play, playBrowserSpeech, preferBrowserSpeech])
+
+  const stopSound = useCallback(() => {
+    stop()
+    stopBrowserSpeech()
+  }, [stop, stopBrowserSpeech])
 
   useEffect(() => {
     if (!sound) return
@@ -60,16 +103,28 @@ export default function usePronunciationSound(word: string, isLoop?: boolean) {
     unListens.push(addHowlListener(sound, 'play', () => setIsPlaying(true)))
     unListens.push(addHowlListener(sound, 'end', () => setIsPlaying(false)))
     unListens.push(addHowlListener(sound, 'pause', () => setIsPlaying(false)))
-    unListens.push(addHowlListener(sound, 'playerror', () => setIsPlaying(false)))
+    unListens.push(
+      addHowlListener(sound, 'playerror', () => {
+        setIsPlaying(false)
+        playBrowserSpeech()
+      }),
+    )
+    unListens.push(
+      addHowlListener(sound, 'loaderror', () => {
+        setIsPlaying(false)
+        playBrowserSpeech()
+      }),
+    )
 
     return () => {
       setIsPlaying(false)
       unListens.forEach((unListen) => unListen())
       ;(sound as Howl).unload()
+      stopBrowserSpeech()
     }
-  }, [sound])
+  }, [playBrowserSpeech, sound, stopBrowserSpeech])
 
-  return { play, stop, isPlaying }
+  return { play: playSound, stop: stopSound, isPlaying }
 }
 
 export function usePrefetchPronunciationSound(word: string | undefined) {

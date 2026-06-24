@@ -4,19 +4,42 @@ import { ErrorBook } from './pages/ErrorBook'
 import { FriendLinks } from './pages/FriendLinks'
 import MobilePage from './pages/Mobile'
 import TypingPage from './pages/Typing'
-import { isOpenDarkModeAtom } from '@/store'
+import { idDictionaryMap } from '@/resources/dictionary'
+import { currentChapterAtom, currentDictIdAtom, isOpenDarkModeAtom } from '@/store'
 import { Analytics } from '@vercel/analytics/react'
 import 'animate.css'
-import { useAtomValue } from 'jotai'
+import { useAtomValue, useSetAtom } from 'jotai'
 import mixpanel from 'mixpanel-browser'
 import process from 'process'
 import React, { Suspense, lazy, useEffect, useState } from 'react'
 import 'react-app-polyfill/stable'
 import { createRoot } from 'react-dom/client'
-import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom'
+import { BrowserRouter, Navigate, Route, Routes, useParams, useSearchParams } from 'react-router-dom'
 
 const AnalysisPage = lazy(() => import('./pages/Analysis'))
 const GalleryPage = lazy(() => import('./pages/Gallery-N'))
+
+const practiceDictAliases: Record<string, string> = {
+  biol1111: 'BIOL_1111_Course_Terms',
+}
+
+function PracticeEntry() {
+  const { dictId = 'BIOL_1111_Course_Terms' } = useParams()
+  const [searchParams] = useSearchParams()
+  const setCurrentDictId = useSetAtom(currentDictIdAtom)
+  const setCurrentChapter = useSetAtom(currentChapterAtom)
+
+  useEffect(() => {
+    const normalizedDictId = practiceDictAliases[dictId] ?? dictId
+    if (!idDictionaryMap[normalizedDictId]) return
+
+    const chapter = Number(searchParams.get('chapter') ?? 0)
+    setCurrentDictId(normalizedDictId)
+    setCurrentChapter(Number.isFinite(chapter) && chapter >= 0 ? chapter : 0)
+  }, [dictId, searchParams, setCurrentChapter, setCurrentDictId])
+
+  return <TypingPage />
+}
 
 if (process.env.NODE_ENV === 'production') {
   // for prod
@@ -52,6 +75,9 @@ function Root() {
       <BrowserRouter basename={REACT_APP_DEPLOY_ENV === 'pages' ? '/qwerty-learner' : ''}>
         <Suspense fallback={<Loading />}>
           <Routes>
+            <Route path="/practice/:dictId" element={<PracticeEntry />} />
+            <Route path="/practice" element={<PracticeEntry />} />
+            <Route path="/mobile" element={<MobilePage />} />
             {isMobile ? (
               <Route path="/*" element={<Navigate to="/mobile" />} />
             ) : (
@@ -64,7 +90,6 @@ function Root() {
                 <Route path="/*" element={<Navigate to="/" />} />
               </>
             )}
-            <Route path="/mobile" element={<MobilePage />} />
           </Routes>
         </Suspense>
       </BrowserRouter>

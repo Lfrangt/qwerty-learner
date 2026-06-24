@@ -1,6 +1,8 @@
 import { SoundIcon } from './SoundIcon'
 import usePronunciationSound from '@/hooks/usePronunciation'
+import { currentDictInfoAtom } from '@/store'
 import type { Word } from '@/typings'
+import { useAtomValue } from 'jotai'
 import { useCallback, useEffect, useImperativeHandle } from 'react'
 import React from 'react'
 
@@ -21,7 +23,9 @@ export const WordPronunciationIcon = React.forwardRef<
       return word.name
     }
   }
-  const { play, stop, isPlaying } = usePronunciationSound(currentWord())
+  const currentDictInfo = useAtomValue(currentDictInfoAtom)
+  const preferBrowserSpeech = currentDictInfo.id === 'BIOL_1111_Course_Terms'
+  const { play, stop, isPlaying } = usePronunciationSound(currentWord(), undefined, preferBrowserSpeech)
 
   const playSound = useCallback(() => {
     stop()
