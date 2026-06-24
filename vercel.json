@@ -1,5 +1,11 @@
 {
   "buildCommand": "yarn build",
   "outputDirectory": "build",
-  "framework": "vite"
+  "framework": "vite",
+  "rewrites": [
+    {
+      "source": "/((?!assets/|dicts/|audio/|favicon.ico|manifest.json|robots.txt|sitemap.xml).*)",
+      "destination": "/index.html"
+    }
+  ]
 }
