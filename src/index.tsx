@@ -21,6 +21,12 @@ const GalleryPage = lazy(() => import('./pages/Gallery-N'))
 
 const practiceDictAliases: Record<string, string> = {
   biol1111: 'BIOL_1111_Course_Terms',
+  'det-core': 'DET_Core_Vocabulary_2026',
+  'det-passage-words': 'DET_3000_Passage_Words',
+  'det-passage-sentences': 'DET_3000_Passage_Sentences',
+  'det-speaking': 'DET_Speaking_2026_Sentences',
+  'det-writing': 'DET_Writing_Template_2026',
+  'det-cloze': 'DET_Cloze_Completion_Answers',
 }
 
 function PracticeEntry() {

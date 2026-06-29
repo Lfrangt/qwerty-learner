@@ -61,6 +61,7 @@
     "dev": "vite",
     "start": "vite",
     "import:biol1111": "node scripts/import-biol1111-terms.mjs",
+    "import:det-materials": "node scripts/import-det-desktop-materials.mjs",
     "build": "cross-env CI=false vite build --base=./",
     "test": "echo \"No tests\"",
     "test:e2e": "playwright test",

@@ -24,7 +24,7 @@ export const WordPronunciationIcon = React.forwardRef<
     }
   }
   const currentDictInfo = useAtomValue(currentDictInfoAtom)
-  const preferBrowserSpeech = currentDictInfo.id === 'BIOL_1111_Course_Terms'
+  const preferBrowserSpeech = currentDictInfo.id === 'BIOL_1111_Course_Terms' || currentDictInfo.id.startsWith('DET_')
   const { play, stop, isPlaying } = usePronunciationSound(currentWord(), undefined, preferBrowserSpeech)
 
   const playSound = useCallback(() => {

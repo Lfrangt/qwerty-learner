@@ -1,0 +1,398 @@
+[
+  {
+    "name": "increase",
+    "trans": [
+      "v. 增加",
+      "频次 576；常考：阅读、数据描述、写作"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "situation",
+    "trans": [
+      "n. 情况，形势",
+      "频次 202；常考：阅读、口语"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "environment",
+    "trans": [
+      "n. 环境",
+      "频次 292；常考：写作高频话题"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "essential",
+    "trans": [
+      "adj. 必要的",
+      "频次 363；常考：Read&Select、写作"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "relationship",
+    "trans": [
+      "n. 关系",
+      "频次 141；常考：口语、写作"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "consider",
+    "trans": [
+      "v. 考虑",
+      "频次 104；常考：写作、口语"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "determine",
+    "trans": [
+      "v. 决定，确定",
+      "频次 158；常考：阅读"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "decision",
+    "trans": [
+      "n. 决定",
+      "频次 133；常考：写作、口语"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "furthermore",
+    "trans": [
+      "adv. 此外",
+      "频次 118；常考：写作拓展"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "obvious",
+    "trans": [
+      "adj. 明显的",
+      "频次 342；常考：阅读、口语"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "encourage",
+    "trans": [
+      "v. 鼓励",
+      "频次 261；常考：写作、口语"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "maintain",
+    "trans": [
+      "v. 维持，保持",
+      "频次 397；常考：阅读、完形填空"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "allow",
+    "trans": [
+      "v. 允许",
+      "频次 531；常考：阅读、写作"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "therefore",
+    "trans": [
+      "adv. 因此",
+      "频次 371；常考：写作逻辑"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "however",
+    "trans": [
+      "adv. 然而",
+      "频次 384；常考：写作、口语逻辑"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "reduce",
+    "trans": [
+      "v. 减少",
+      "频次 554；常考：阅读、写作、完形填空"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "communicate",
+    "trans": [
+      "v. 交流",
+      "频次 254；常考：口语、写作"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "available",
+    "trans": [
+      "adj. 可获得的",
+      "频次 304；常考：阅读、完形填空"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "temporary",
+    "trans": [
+      "adj. 临时的",
+      "频次 179；常考：阅读"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "otherwise",
+    "trans": [
+      "adv. 否则",
+      "频次 111；常考：写作逻辑"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "sufficient",
+    "trans": [
+      "adj. 足够的",
+      "频次 194；常考：Read&Select 易混词"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "achieve",
+    "trans": [
+      "v. 实现，达到",
+      "频次 472；常考：写作、完形填空"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "convenient",
+    "trans": [
+      "adj. 方便的",
+      "频次 317；常考：口语、写作"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "technology",
+    "trans": [
+      "n. 科技",
+      "频次 285；常考：阅读、写作"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "typical",
+    "trans": [
+      "adj. 典型的",
+      "频次 172；常考：阅读、描述"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "tradition",
+    "trans": [
+      "n. 传统",
+      "频次 149；常考：文化类话题"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "provide",
+    "trans": [
+      "v. 提供",
+      "频次 592；常考：阅读、写作、完形填空"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "require",
+    "trans": [
+      "v. 需要，要求",
+      "频次 527；常考：阅读、完形填空、写作"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "improve",
+    "trans": [
+      "v. 改善，提高",
+      "频次 628；常考：写作、口语、完形填空"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "accurate",
+    "trans": [
+      "adj. 准确的",
+      "频次 233；常考：阅读、口语"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "benefit",
+    "trans": [
+      "n./v. 益处；受益",
+      "频次 489；常考：写作利弊题"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "participate",
+    "trans": [
+      "v. 参与",
+      "频次 241；常考：校园话题"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "create",
+    "trans": [
+      "v. 创造，建立",
+      "频次 418；常考：写作、口语"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "prevent",
+    "trans": [
+      "v. 阻止，防止",
+      "频次 451；常考：阅读、写作"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "support",
+    "trans": [
+      "v./n. 支持",
+      "频次 436；常考：写作、口语"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "efficient",
+    "trans": [
+      "adj. 高效的",
+      "频次 330；常考：阅读、写作"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "reliable",
+    "trans": [
+      "adj. 可靠的",
+      "频次 187；常考：写作、口语"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "affect",
+    "trans": [
+      "v. 影响",
+      "频次 513；常考：写作、阅读、口语"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "common",
+    "trans": [
+      "adj. 常见的，普遍的",
+      "频次 355；常考：阅读、写作"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "opportunity",
+    "trans": [
+      "n. 机会",
+      "频次 214；常考：写作、口语"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "education",
+    "trans": [
+      "n. 教育",
+      "频次 273；常考：口语、写作"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "appropriate",
+    "trans": [
+      "adj. 合适的",
+      "频次 226；常考：阅读、写作"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "recognize",
+    "trans": [
+      "v. 认出，承认",
+      "频次 165；常考：阅读"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  },
+  {
+    "name": "activity",
+    "trans": [
+      "n. 活动",
+      "频次 126；常考：看图演讲"
+    ],
+    "usphone": "",
+    "ukphone": ""
+  }
+]
