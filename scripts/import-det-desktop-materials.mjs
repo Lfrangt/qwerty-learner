@@ -47,7 +47,7 @@ const DICTIONARIES = [
   {
     id: 'DET_Writing_Template_2026',
     name: '多邻国写作模板 2026',
-    description: '从桌面 DET 写作模板整理出的可打字句型',
+    description: '从桌面 DET 写作模板拆分出的短句型块',
     url: '/dicts/DET_Writing_Template_2026.json',
     collect: collectWritingTemplates,
   },
@@ -250,23 +250,29 @@ function collectSpeakingSentences() {
 function collectWritingTemplates() {
   const entries = new Map()
   const templates = [
-    [
-      'Recently, whether this issue is reasonable has caused numerous controversies, and I reckon that it is beneficial.',
-      '开头：引出话题并表达观点',
-    ],
-    [
-      'Firstly, when people face difficult problems, perseverance is very important because it can generate positive impacts on students.',
-      '主体段一：理由展开',
-    ],
-    [
-      'Secondly, it is no exaggeration to say that perseverance is the catalyst for the development of individuals and communities.',
-      '主体段二：继续论证',
-    ],
-    [
-      'In conclusion, whatever situations we are confronted with, we must remind ourselves of the merits and demerits of this topic, which is a key element to achieve a harmonious society.',
-      '结尾：总结模板',
-    ],
-    ['In conclusion, I prefer to have this choice, as balance is a key element to achieve a harmonious society.', '选择题结尾'],
+    ['Recently, this issue has caused debate.', '开头：引出话题'],
+    ['I reckon that it is beneficial.', '开头：表达支持'],
+    ['I think this choice is reasonable.', '开头：表达观点'],
+    ['From my perspective, it is useful.', '观点：个人立场'],
+    ['Firstly, this point is worth considering.', '主体段一：起句'],
+    ['In the face of problems, perseverance matters.', '主体段一：困难与坚持'],
+    ['Perseverance can create positive results.', '主体段一：坚持的作用'],
+    ['It can bring positive impacts.', '理由：正面影响'],
+    ['It helps students solve problems.', '理由：学生场景'],
+    ['It should be taken into account.', '理由：强调重要性'],
+    ['Secondly, this idea also matters.', '主体段二：起句'],
+    ['It supports individual development.', '主体段二：个人发展'],
+    ['It also benefits the community.', '主体段二：社区影响'],
+    ['Perseverance is a catalyst for growth.', '主体段二：高级表达'],
+    ['For example, it can save time.', '例子：节省时间'],
+    ['Besides, it can reduce stress.', '补充：减少压力'],
+    ['More importantly, it improves efficiency.', '补充：提高效率'],
+    ['However, every choice has drawbacks.', '让步：承认缺点'],
+    ['We should consider both sides.', '让步：双面分析'],
+    ['Overall, the advantages are stronger.', '总结：利大于弊'],
+    ['In conclusion, I support this choice.', '结尾：总结观点'],
+    ['I prefer this choice because it brings balance.', '选择题结尾'],
+    ['This is a key element of a harmonious society.', '结尾：高级收束'],
   ]
 
   templates.forEach(([sentence, trans]) => addEntry(entries, sentence, trans))

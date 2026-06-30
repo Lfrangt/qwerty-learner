@@ -1643,11 +1643,11 @@ const internationalExam: DictionaryResource[] = [
   {
     id: 'DET_Writing_Template_2026',
     name: '多邻国写作模板 2026',
-    description: '从桌面 DET 写作模板整理出的可打字句型',
+    description: '从桌面 DET 写作模板拆分出的短句型块',
     category: '国际考试',
     tags: ['Duolingo', 'DET'],
     url: '/dicts/DET_Writing_Template_2026.json',
-    length: 5,
+    length: 23,
     language: 'en',
     languageCategory: 'en',
   },
